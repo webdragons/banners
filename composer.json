@@ -1,0 +1,26 @@
+{
+  "name": "bulldozer/banners",
+  "description": "Banners module",
+  "type": "yii2-extension",
+  "authors": [
+    {
+      "name": "lan143",
+      "email": "lan143@lan143.ru"
+    }
+  ],
+  "require": {
+    "bulldozer/bulldozer": "*",
+    "bulldozer/files": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "bulldozer\\banners\\": "src"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
